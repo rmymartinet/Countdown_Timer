@@ -39,9 +39,9 @@ export default function Home() {
   });
 
   return (
-    <div className="relative h-[100dvh] flex flex-col items-center justify-center gap-40">
+    <div className="relative h-[100dvh] flex flex-col items-center justify-center gap-20 lg:gap-40">
       <Image
-        className="w-[400px] lg:absolute lg:w-[550px]"
+        className="w-[300px] lg:absolute lg:w-[550px]"
         src="/assets/logo_gif.gif"
         width={550}
         height={550}
